@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
+    <title>Home Page</title>
     <!-- Tailwind via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" type="image/png" href="dehoni.png" />
@@ -17,21 +17,27 @@
       <nav
         class="flex items-center justify-between rounded-tl-lg rounded-br-lg w-full m-4 py-5 px-14 max-w-7xl bg-sky-700 space-x-6"
       >
-        <div class="flex space-x-2  items-center text-white font-bold">
+        <div class="flex space-x-2 items-center text-white font-bold">
           <img src="dehoni.jpg" alt="logoimg" class="w-5 md-w-8 md:h-6" />
           <h1 class="md:text-2xl">E-Persona</h1>
         </div>
 
-       
-
         <div>
           <ul
-            class="hidden flex-col md:flex-row md:flex lg:flex items-center space-y-4 md:space-y-0 md:space-x-8 text-white font-[Poppins] font-bold md:w-auto bg-sky-700  "
+            class="hidden flex-col md:flex-row md:flex lg:flex items-center space-y-4 md:space-y-0 md:space-x-8 text-white font-[Poppins] font-bold md:w-auto bg-sky-700"
           >
-            <li><a href="#home" class=" hover:text-blue-950">Home</a></li>
-            <li><a href="portfolio.html" class=" hover:text-blue-950">Portfolio</a></li>
-            <li><a href="testimonial.html" class=" hover:text-blue-950">Testimonial</a></li>
-            <li><a href="contact.html" class="hover:text-blue-950">Contact</a></li>
+            <li><a href="#home" class="hover:text-blue-950">Home</a></li>
+            <li>
+              <a href="portfolio.html" class="hover:text-blue-950">Portfolio</a>
+            </li>
+            <li>
+              <a href="testimonial.html" class="hover:text-blue-950"
+                >Testimonial</a
+              >
+            </li>
+            <li>
+              <a href="contact.html" class="hover:text-blue-950">Contact</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -92,7 +98,7 @@
 
           <div class="flex flex-col justify-center md:items-start">
             <p
-              class="text-white font-[Poppins] text-center md:text-left text-base md:text-3xl px-3 leading-relaxed  md:mt-8 max-w-xl"
+              class="text-white font-[Poppins] text-center md:text-left text-base md:text-3xl px-3 leading-relaxed md:mt-8 max-w-xl"
             >
               Welcome to my digital haven! This portfolio showcases my expertise
               in crafting captivating websites that elevate brands and ignite
@@ -109,43 +115,49 @@
           </div>
         </div>
 
-        <div class="flex justify-center items-center px-10 flex-col  ">
-          <img src="firstproject.png" class="w-full  md:mt-10 " alt="first project" />
-          <img src="group5.png" class="w-full md:mt-10 mt-5 " alt="group 5" />
-          
-          <img src="group6.png" class="w-full md:mt-10 mb-4 mt-4 " alt="group 5" />
+        <div class="flex justify-center items-center px-10 flex-col">
+          <img
+            src="firstproject.png"
+            class="w-full md:mt-10"
+            alt="first project"
+          />
+          <img src="group5.png" class="w-full md:mt-10 mt-5" alt="group 5" />
 
+          <img
+            src="group6.png"
+            class="w-full md:mt-10 mb-4 mt-4"
+            alt="group 5"
+          />
         </div>
 
-        <div class="flex justify-center ">
-              <a
-                href="#testimonial"
-                class="flex items-center justify-center mt-2 mb-2 rounded-lg md:px-20 px-14 md:text-lg py-4 bg-slate-900 text-center font-[Poppins] font-extrabold text-white"
-                >Testimonial</a
-              >
+        <div class="flex justify-center">
+          <a
+            href="#testimonial"
+            class="flex items-center justify-center mt-2 mb-2 rounded-lg md:px-20 px-14 md:text-lg py-4 bg-slate-900 text-center font-[Poppins] font-extrabold text-white"
+            >Testimonial</a
+          >
         </div>
 
-         <div class="flex justify-center flex-col  items-center ">
+        <div class="flex justify-center flex-col items-center">
           <img
             src="company.png"
-            class="w-full mt-5 md:mt-12 px-10 "
+            class="w-full mt-5 md:mt-12 px-10"
             alt="group 5"
           />
           <img
             src="dewi.png"
-            class="w-full mt-5 md:mt-12 px-10 "
+            class="w-full mt-5 md:mt-12 px-10"
             alt="group 5"
           />
 
-        <div class="mt-6 flex justify-center">
+          <div class="mt-6 flex justify-center">
             <a
-            href="testimonial.html"
-            class="md:mt-10  px-14 md:px-20 mb-4 md:text-lg  py-4 rounded-lg bg-slate-900 text-center font-[Poppins] font-extrabold text-white"
-            >View All</a>
+              href="testimonial.html"
+              class="md:mt-10 px-14 md:px-20 mb-4 md:text-lg py-4 rounded-lg bg-slate-900 text-center font-[Poppins] font-extrabold text-white"
+              >View All</a
+            >
+          </div>
         </div>
-        </div>
-
-         
       </section>
 
       <section>
@@ -169,7 +181,8 @@
           <a
             href="contact.html"
             class="mt-4 px-14 py-2 rounded-lg bg-slate-900 text-center font-[Poppins] font-extrabold text-white"
-            >Contact Me</a>
+            >Contact Me</a
+          >
         </div>
       </section>
     </main>
