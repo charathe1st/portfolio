@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="" />
+    <link rel="icon" type="image/png" href="dehoni.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="m-0 p-0 flex flex-col min-h-screen bg-slate-900">
+    <div class="flex justify-center">
+      <nav
+        class="flex items-center justify-between rounded-tl-lg rounded-br-lg w-full m-4 py-5 px-14 max-w-7xl bg-sky-700 space-x-6"
+      >
+        <div class="flex space-x-2 items-center text-white font-bold">
+          <img src="dehoni.jpg" alt="logoimg" class="w-5 md-w-8 md:h-6" />
+          <h1 class="md:text-2xl">E-Persona</h1>
+        </div>
+
+        <div>
+          <ul class="hidden md:flex lg:flex items-center space-x-8 text-white">
+            <li>
+              <a
+                href="index.html"
+                class="font-[Poppins] font-bold hover:text-blue-950"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="portfolio.html"
+                class="font-[Poppins] font-bold hover:text-blue-950"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a
+                href="testimonial.html"
+                class="font-[Poppins] font-bold hover:text-blue-950"
+                >Testimonial</a
+              >
+            </li>
+            <li>
+              <a
+                href="contact.html"
+                class="font-[Poppins] font-bold hover:text-blue-950"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <main class="flex-grow">
+      <div class="flex justify-center items-center flex-col">
+        <a
+          href="#"
+          class="flex items-center justify-center mt-4 md:mt-7 rounded-lg md:px-20 px-14 md:text-2xl py-4 bg-sky-700 text-center font-[Poppins] font-extrabold text-white"
+          >Contact Me</a
+        >
+        <div class="px-10">
+          <img src="vision.png" class="w-full md:mt-12 mt-10" alt="group 5" />
+        </div>
+      </div>
+
+      <div class="flex flex-col  justify-center  md:flex-row">
+        <div class="p-6 flex justify-center ">
+           <img src="no.png" class="w-3/4 md:w-full  object-contain mt-4  md:mt-0 " alt="group 5" />
+        </div>
+        <div class="p-10 mt-6">
+           <form class="flex flex-col space-y-2">
+            <label for="Email" class="text-white  font-[Poppins]">Email:</label>
+            <input
+              type="email"
+              class="py-2 px-10 bg-white border border-sky-700 outline-none focus:border-sky-700 rounded border-sky-700"
+              id="email"
+              required=""
+            />
+
+            <label for="FullName" class="text-white font-[Poppins]"
+              >FullName:</label
+            >
+            <input
+              type="text"
+              class=" border py-2 px-16 border-sky-700 outline-none focus:border-sky-700 bg-white rounded border-sky-700"
+              id="fullname"
+              required=""
+            />
+
+            <label for="Message" class="text-white  font-[Poppins]"
+              >Message:</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              class=" border py-2 px-10 border-sky-700 outline-none focus:border-sky-700 bg-white rounded border-sky-700"
+              required=""
+            ></textarea>
+
+            <div class="flex justify-center ">
+          <button
+            type="submit"
+            class="rounded-lg mt-6 mb-4 py-3 px-10 bg-sky-700  font-bold font-[Poppins] text-white"
+          >
+            Send
+          </button>
+        </div>
+          </form>
+        </div>
+      </div>
+
+      
+    </main>
+
+    <footer
+      class="flex items-center justify-center rounded-tl-lg flex-col rounded-br-lg p-6 w-full bg-sky-700 mx-auto space-x-6"
+    >
+      <div class="text-center text-white text-xs font-[Poppins]">
+        2024 - DEHONI TECHNOLOGIES SUMMER BOOTCAMP COHORT 1 All Right Reserved
+      </div>
+
+      <div class="flex justify-center mt-2 space-x-4">
+        <div class="flex justify-center space-x-6">
+          <a href="#"><img src="facebook.png" alt="Logo 1" class="w-3" /></a>
+          <a href="#"><img src="whatsapp.png" alt="Logo 2" class="w-3" /></a>
+          <a href="#"><img src="x.png" alt="Logo 3" class="w-3" /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
